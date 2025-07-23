@@ -1,0 +1,81 @@
+body {
+  display: block;
+  text-align: center;
+  margin: 20px auto;
+  background-color: rgba(183, 255, 244, 0.7);
+  max-width: 700px;
+  font-family: "Lexend", sans-serif;
+}
+hr {
+  opacity: 0.7;
+  width: 85%;
+}
+h1 {
+  margin: 0 0 5px 0;
+  font-size: 35px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+strong {
+  color: #b7fff4;
+}
+footer {
+  font-family: "Hepta Slab", serif;
+  padding: 20px;
+}
+.container {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px gray;
+}
+.search {
+  padding: 20px;
+  display: block;
+  margin: 0 auto;
+}
+.search-city {
+  padding: 11px;
+  border: none;
+  border-radius: 7px;
+  box-shadow: 5px 5px 5px gray;
+  width: 50%;
+}
+.search-button {
+  background: #b7fff4;
+  padding: 7px 13px;
+  border-radius: 7px;
+  border: 1px solid #b7fff4;
+  box-shadow: 5px 5px 5px gray;
+  margin-left: 10px;
+  font-size: 17px;
+  transition: all 200ms ease-in-out;
+}
+.search-button:hover {
+  background: white;
+  cursor: pointer;
+}
+.current {
+  display: flex;
+}
+.current-city {
+  margin: auto;
+  padding: 20px;
+  text-align: left;
+}
+.current-details {
+  font-family: "Hepta Slab", serif;
+  text-shadow: 1px 1px 1px grey;
+}
+.current-temperature {
+  font-size: 50px;
+  display: flex;
+  margin: auto;
+}
+.degree {
+  font-size: 25px;
+}
+img {
+  width: 65px;
+}

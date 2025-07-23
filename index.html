@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@1..900&family=Lexend:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="city">
+        <form class="search">
+          <input
+            type="text"
+            placeholder="Enter city"
+            class="search-city"
+            required
+          />
+          <input type="submit" value="Search" class="search-button" />
+        </form>
+      </div>
+      <hr />
+      <div class="current">
+        <div class="current-city">
+          <h1>Hermosillo</h1>
+          <span class="current-details"
+            ><span id="day-details"></span>,
+            <span id="current-condition-description"></span>
+            <br />
+            Humidity: <strong id="current-humi-number"></strong>, Wind:
+            <strong id="current-wind-number"></strong>
+          </span>
+        </div>
+        <div class="current-temperature">
+          <img src="#" id="icon" />
+          <span id="current-temp-number"></span>
+          <span class="degree">°C</span>
+        </div>
+      </div>
+      <ul>
+        <li>Tuesday <br />13°C - 27°C 🌤</li>
+        <li>Wednesday<br />17°C - 32°C 🌤</li>
+        <li>Thursday<br />17°C - 33°C ☀</li>
+        <li>Friday<br />15°C - 31°C ☀</li>
+        <li>Saturday<br />13°C - 29°C 🌤</li>
+      </ul>
+      <hr />
+      <footer>Coded by Andrea Tinoco</footer>
+    </div>
+    <script src="src/script.js"></script>
+  </body>
+</html>
